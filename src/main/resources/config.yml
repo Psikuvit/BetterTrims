@@ -1,0 +1,103 @@
+recipes: #attacks
+  - result: DIAMOND
+    attack: final_stand
+    ingredients:
+      A: DIAMOND
+      B: STICK
+    shape:
+      - "AAA"
+      - " A "
+      - " B "
+  - result: GOLD_INGOT
+    attack: damage
+    ingredients:
+      A: DIAMOND
+      B: STICK
+    shape:
+      - "AAA"
+      - " A "
+      - " B "
+  - result: IRON_INGOT
+    attack: bomber
+    ingredients:
+      A: DIAMOND
+      B: STICK
+    shape:
+      - "AAA"
+      - " A "
+      - " B "
+  - result: EMERALD
+    attack: dueler
+    ingredients:
+      A: DIAMOND
+      B: STICK
+    shape:
+      - "AAA"
+      - " A "
+      - " B "
+  - result: NETHERITE_INGOT
+    attack: hidden_in_the_fields
+    ingredients:
+      A: DIAMOND
+      B: STICK
+    shape:
+      - "AAA"
+      - " A "
+      - " B "
+  - result: STICK
+    attack: medic
+    ingredients:
+      A: DIAMOND
+      B: STICK
+    shape:
+      - "AAA"
+      - " A "
+      - " B "
+  - result: BUCKET
+    attack: sneak
+    ingredients:
+      A: DIAMOND
+      B: STICK
+    shape:
+      - "AAA"
+      - " A "
+      - " B "
+  - result: DIAMOND_BLOCK
+    attack: speedy_getaway
+    ingredients:
+      A: DIAMOND
+      B: STICK
+    shape:
+      - "AAA"
+      - " A "
+      - " B "
+  - result: IRON_BLOCK
+    attack: flight_risk
+    ingredients:
+      A: DIAMOND
+      B: STICK
+    shape:
+      - "AAA"
+      - " A "
+      - " B "
+
+repair:
+  - result: STICK
+    ingredients:
+      A: GOLD_INGOT
+      B: STICK
+    shape:
+      - "ABA"
+      - "BAB"
+      - " B "
+
+cooldowns:
+  bomber: 20
+  damage: 20
+  dueler: 20
+  final_stand: 20
+  flight_risk: 20
+  hidden_in_the_fields: 20
+  medic: 20
+  sneak: 20
+  speedy_gataway: 20

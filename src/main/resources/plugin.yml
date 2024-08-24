@@ -1,0 +1,7 @@
+name: BetterTrims
+version: '1.0'
+main: me.psikuvit.betterTrims.BTPlugin
+api-version: '1.13'
+
+commands:
+  trim:
